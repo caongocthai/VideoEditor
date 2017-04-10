@@ -7,21 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		300CEF211E977CD7007A6AF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 300CEF201E977CD6007A6AF8 /* Assets.xcassets */; };
+		300CEF251E97C18E007A6AF8 /* EditingToolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300CEF241E97C18E007A6AF8 /* EditingToolTableViewCell.swift */; };
+		30823E981E973D4600653582 /* CustomViewControllerAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30823E971E973D4600653582 /* CustomViewControllerAnimatedTransitioning.swift */; };
 		30A6B6DA1E96558700539C67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A6B6D91E96558700539C67 /* AppDelegate.swift */; };
-		30A6B6DC1E96558700539C67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A6B6DB1E96558700539C67 /* ViewController.swift */; };
-		30A6B6DF1E96558700539C67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A6B6DD1E96558700539C67 /* Main.storyboard */; };
-		30A6B6E11E96558700539C67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A6B6E01E96558700539C67 /* Assets.xcassets */; };
 		30A6B6E41E96558700539C67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A6B6E21E96558700539C67 /* LaunchScreen.storyboard */; };
+		30A6B6EC1E9655F200539C67 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A6B6EB1E9655F200539C67 /* MainViewController.swift */; };
+		30A6B6EE1E96920700539C67 /* VideoEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A6B6ED1E96920700539C67 /* VideoEditorViewController.swift */; };
+		30A6B6F01E9695BD00539C67 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A6B6EF1E9695BD00539C67 /* VideoPlayerView.swift */; };
+		30AC8F211E9A8FE00028A68E /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30AC8F201E9A8FE00028A68E /* AVKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		30AC8F231E9A8FE50028A68E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30AC8F221E9A8FE50028A68E /* AVFoundation.framework */; };
+		30AC8F251E9A8FEC0028A68E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30AC8F241E9A8FEC0028A68E /* MobileCoreServices.framework */; };
+		30AC8F271E9A90020028A68E /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30AC8F261E9A90020028A68E /* Photos.framework */; };
+		30AC8F291E9A903B0028A68E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30AC8F281E9A903B0028A68E /* UIKit.framework */; };
+		30C83C4D1E99E4F60003E8DF /* EffectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C83C4C1E99E4F60003E8DF /* EffectsView.swift */; };
+		30C83C521E9A1A680003E8DF /* AddStickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C83C511E9A1A680003E8DF /* AddStickerView.swift */; };
+		30C83C541E9A25C10003E8DF /* PreviewStickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C83C531E9A25C10003E8DF /* PreviewStickerCollectionViewCell.swift */; };
+		30C83C561E9A2ECF0003E8DF /* PreviewEffectsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C83C551E9A2ECF0003E8DF /* PreviewEffectsCollectionViewCell.swift */; };
+		30EFFBBD1E992E5B00EF7D82 /* AddTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EFFBBC1E992E5B00EF7D82 /* AddTextView.swift */; };
+		30EFFBBF1E99349200EF7D82 /* PreviewPositionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EFFBBE1E99349200EF7D82 /* PreviewPositionCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		300CEF201E977CD6007A6AF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		300CEF241E97C18E007A6AF8 /* EditingToolTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditingToolTableViewCell.swift; sourceTree = "<group>"; };
+		30823E971E973D4600653582 /* CustomViewControllerAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewControllerAnimatedTransitioning.swift; sourceTree = "<group>"; };
 		30A6B6D61E96558700539C67 /* VideoEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A6B6D91E96558700539C67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		30A6B6DB1E96558700539C67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		30A6B6DE1E96558700539C67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		30A6B6E01E96558700539C67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30A6B6E31E96558700539C67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30A6B6E51E96558700539C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30A6B6EB1E9655F200539C67 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		30A6B6ED1E96920700539C67 /* VideoEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoEditorViewController.swift; sourceTree = "<group>"; };
+		30A6B6EF1E9695BD00539C67 /* VideoPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		30AC8F201E9A8FE00028A68E /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		30AC8F221E9A8FE50028A68E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		30AC8F241E9A8FEC0028A68E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		30AC8F261E9A90020028A68E /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		30AC8F281E9A903B0028A68E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		30C83C4C1E99E4F60003E8DF /* EffectsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EffectsView.swift; sourceTree = "<group>"; };
+		30C83C511E9A1A680003E8DF /* AddStickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddStickerView.swift; sourceTree = "<group>"; };
+		30C83C531E9A25C10003E8DF /* PreviewStickerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewStickerCollectionViewCell.swift; sourceTree = "<group>"; };
+		30C83C551E9A2ECF0003E8DF /* PreviewEffectsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewEffectsCollectionViewCell.swift; sourceTree = "<group>"; };
+		30EFFBBC1E992E5B00EF7D82 /* AddTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTextView.swift; sourceTree = "<group>"; };
+		30EFFBBE1E99349200EF7D82 /* PreviewPositionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewPositionCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +57,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30AC8F291E9A903B0028A68E /* UIKit.framework in Frameworks */,
+				30AC8F271E9A90020028A68E /* Photos.framework in Frameworks */,
+				30AC8F251E9A8FEC0028A68E /* MobileCoreServices.framework in Frameworks */,
+				30AC8F231E9A8FE50028A68E /* AVFoundation.framework in Frameworks */,
+				30AC8F211E9A8FE00028A68E /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +73,7 @@
 			children = (
 				30A6B6D81E96558700539C67 /* VideoEditor */,
 				30A6B6D71E96558700539C67 /* Products */,
+				30AC8F1F1E9A8FE00028A68E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +89,74 @@
 			isa = PBXGroup;
 			children = (
 				30A6B6D91E96558700539C67 /* AppDelegate.swift */,
-				30A6B6DB1E96558700539C67 /* ViewController.swift */,
-				30A6B6DD1E96558700539C67 /* Main.storyboard */,
-				30A6B6E01E96558700539C67 /* Assets.xcassets */,
+				30C83C481E99E2D40003E8DF /* EntranceScreen */,
+				30C83C471E99E2B90003E8DF /* VideoEditorScreen */,
+				300CEF201E977CD6007A6AF8 /* Assets.xcassets */,
 				30A6B6E21E96558700539C67 /* LaunchScreen.storyboard */,
 				30A6B6E51E96558700539C67 /* Info.plist */,
 			);
 			path = VideoEditor;
+			sourceTree = "<group>";
+		};
+		30AC8F1F1E9A8FE00028A68E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30AC8F281E9A903B0028A68E /* UIKit.framework */,
+				30AC8F261E9A90020028A68E /* Photos.framework */,
+				30AC8F241E9A8FEC0028A68E /* MobileCoreServices.framework */,
+				30AC8F221E9A8FE50028A68E /* AVFoundation.framework */,
+				30AC8F201E9A8FE00028A68E /* AVKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30C83C471E99E2B90003E8DF /* VideoEditorScreen */ = {
+			isa = PBXGroup;
+			children = (
+				30A6B6ED1E96920700539C67 /* VideoEditorViewController.swift */,
+				30A6B6EF1E9695BD00539C67 /* VideoPlayerView.swift */,
+				300CEF241E97C18E007A6AF8 /* EditingToolTableViewCell.swift */,
+				30C83C4B1E99E37B0003E8DF /* EffectsTool */,
+				30C83C491E99E30C0003E8DF /* AddTextTool */,
+				30C83C501E9A1A0B0003E8DF /* AddStickerTool */,
+			);
+			name = VideoEditorScreen;
+			sourceTree = "<group>";
+		};
+		30C83C481E99E2D40003E8DF /* EntranceScreen */ = {
+			isa = PBXGroup;
+			children = (
+				30A6B6EB1E9655F200539C67 /* MainViewController.swift */,
+				30823E971E973D4600653582 /* CustomViewControllerAnimatedTransitioning.swift */,
+			);
+			name = EntranceScreen;
+			sourceTree = "<group>";
+		};
+		30C83C491E99E30C0003E8DF /* AddTextTool */ = {
+			isa = PBXGroup;
+			children = (
+				30EFFBBC1E992E5B00EF7D82 /* AddTextView.swift */,
+				30EFFBBE1E99349200EF7D82 /* PreviewPositionCollectionViewCell.swift */,
+			);
+			name = AddTextTool;
+			sourceTree = "<group>";
+		};
+		30C83C4B1E99E37B0003E8DF /* EffectsTool */ = {
+			isa = PBXGroup;
+			children = (
+				30C83C4C1E99E4F60003E8DF /* EffectsView.swift */,
+				30C83C551E9A2ECF0003E8DF /* PreviewEffectsCollectionViewCell.swift */,
+			);
+			name = EffectsTool;
+			sourceTree = "<group>";
+		};
+		30C83C501E9A1A0B0003E8DF /* AddStickerTool */ = {
+			isa = PBXGroup;
+			children = (
+				30C83C511E9A1A680003E8DF /* AddStickerView.swift */,
+				30C83C531E9A25C10003E8DF /* PreviewStickerCollectionViewCell.swift */,
+			);
+			name = AddStickerTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +218,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				300CEF211E977CD7007A6AF8 /* Assets.xcassets in Resources */,
 				30A6B6E41E96558700539C67 /* LaunchScreen.storyboard in Resources */,
-				30A6B6E11E96558700539C67 /* Assets.xcassets in Resources */,
-				30A6B6DF1E96558700539C67 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,22 +230,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30A6B6DC1E96558700539C67 /* ViewController.swift in Sources */,
+				30823E981E973D4600653582 /* CustomViewControllerAnimatedTransitioning.swift in Sources */,
 				30A6B6DA1E96558700539C67 /* AppDelegate.swift in Sources */,
+				30C83C541E9A25C10003E8DF /* PreviewStickerCollectionViewCell.swift in Sources */,
+				30C83C4D1E99E4F60003E8DF /* EffectsView.swift in Sources */,
+				30A6B6EE1E96920700539C67 /* VideoEditorViewController.swift in Sources */,
+				30EFFBBF1E99349200EF7D82 /* PreviewPositionCollectionViewCell.swift in Sources */,
+				30C83C561E9A2ECF0003E8DF /* PreviewEffectsCollectionViewCell.swift in Sources */,
+				30A6B6EC1E9655F200539C67 /* MainViewController.swift in Sources */,
+				30EFFBBD1E992E5B00EF7D82 /* AddTextView.swift in Sources */,
+				300CEF251E97C18E007A6AF8 /* EditingToolTableViewCell.swift in Sources */,
+				30A6B6F01E9695BD00539C67 /* VideoPlayerView.swift in Sources */,
+				30C83C521E9A1A680003E8DF /* AddStickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		30A6B6DD1E96558700539C67 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				30A6B6DE1E96558700539C67 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		30A6B6E21E96558700539C67 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -187,6 +283,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -206,6 +303,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
+				"MTL_ENABLE_DEBUG_INFO[sdk=iphonesimulator*]" = disable;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -237,6 +335,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -299,6 +398,7 @@
 				30A6B6EA1E96558700539C67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
