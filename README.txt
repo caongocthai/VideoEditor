@@ -1,8 +1,9 @@
-# VideoEditor is an app that lets users edit their videos (it works like how it sounds)
+# VideoEditor
+VideoEditor is an app that lets users edit their videos (it works like how it sounds)<br />
 
 The app is written in Swift using AVFoundation framework, AVKit framework, MobileCoreServices framework and Photos framework.
 
-# I am an "anti-storyboard" person. Therefore, all the UI were designed programmatically using auto layout (adding constraints) technique. 
+##### I am an "anti-storyboard" person. Therefore, all the UI were designed programmatically using auto layout (adding constraints) technique. 
 
 Its functionalities:
 
@@ -22,7 +23,7 @@ Its functionalities:
 
 Note: The "haven’t implemented functionalities", however, are designed. Selecting these tools (functionalities) will result in an alert telling user that the tools have not been implemented yet.
 
-#NOTE:
+## NOTE:
 1. When users edit a video, after apply one editing tool, the new edited video is automatically saved.
 2. When users are done editing, they tap action and then save. Which will add a watermark to the corner of the video.
 
