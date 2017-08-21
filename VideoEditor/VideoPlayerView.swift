@@ -99,11 +99,14 @@ class VideoPlayerView: UIView {
         // Play the video on a AVPlayer layer
         self.videoURL = url
         self.backgroundColor = .black
-        player = AVPlayer(url: self.videoURL!)
-        let playerLayer = AVPlayerLayer(player: player)
+        let playerItem = AVPlayerItem(url: self.videoURL!) // An AVPlayerItem to be the player's item later.
+//        player = AVPlayer(url: self.videoURL!)
+        player = AVPlayer() // Set as an empty AVPlayer, we should not have player knowing about its asset before add layer to superlayer
+        let playerLayer = AVPlayerLayer(player: player) // Now, we access the layer, cuz we initilize player as empty AVPlayer, => No worry when add layer to super layer
         self.layer.addSublayer(playerLayer)
         playerLayer.frame = self.frame
         player.play()
+        player.replaceCurrentItem(with: playerItem) // Now, set the asset of player (playerItem)
         player.addObserver(self, forKeyPath: "currentItem.loadedTimeRanges", options: .new, context: nil)
         
         // Observe the current playing time for handing Slider as well as current time label.

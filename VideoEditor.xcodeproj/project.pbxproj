@@ -191,6 +191,7 @@
 				TargetAttributes = {
 					30A6B6D51E96558700539C67 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 2MRG3U4CR7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -359,11 +360,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2MRG3U4CR7;
 				INFOPLIST_FILE = VideoEditor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Thai-Cao-Ngoc.VideoEditor";
+				PRODUCT_BUNDLE_IDENTIFIER = AppsInnovation.VideoEditor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -371,11 +376,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2MRG3U4CR7;
 				INFOPLIST_FILE = VideoEditor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Thai-Cao-Ngoc.VideoEditor";
+				PRODUCT_BUNDLE_IDENTIFIER = AppsInnovation.VideoEditor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
