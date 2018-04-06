@@ -1,4 +1,4 @@
-#### NOTE: Sorry, I build this project in one week when I first started learning iOS and I had stopped supporting it. The project contains a lot of bugs. Please help yourself when reviewing it.
+#### NOTE: Sorry, I built this project in one week when I first started learning iOS and I had stopped supporting it. The project contains a lot of bugs. Please help yourself when reviewing it.
 
 # VideoEditor
 VideoEditor is an app that lets users edit their videos (it works like how it sounds)<br />
